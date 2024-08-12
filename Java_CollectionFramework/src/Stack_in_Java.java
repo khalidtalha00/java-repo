@@ -4,7 +4,7 @@ public class Stack_in_Java {
     public static void main(String[] args) {
         Stack<String> myStack = new Stack<>();
 
-        myStack.push("Lion");   // add elephants to the top of the stack
+        myStack.push("Lion");   // add elements to the top of the stack
         myStack.push("Tiger");
         myStack.push("Cat");
         myStack.push("Elephant");
