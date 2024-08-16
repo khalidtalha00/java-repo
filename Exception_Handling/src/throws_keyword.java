@@ -6,7 +6,7 @@ import java.io.IOException;
 public class throws_keyword {
     public static void main(String[] args) throws IOException // might throw an io exception
      {
-        File myfile = new File("C:\\Users\\khali\\Desktop\\new.txt");
+        File myfile = new File("C:\\Users\\khali\\Desktop\\new.txt"); //replace with your own directory path
 
         if (myfile.createNewFile()){
             System.out.println("Successfully created a file");
