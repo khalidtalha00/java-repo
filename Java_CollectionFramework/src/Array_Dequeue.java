@@ -1,3 +1,4 @@
+// in Deque or duobly ended queue elements can be added and deleted from both the ends
 import java.util.ArrayDeque;
 
 public class Array_Dequeue {

@@ -27,13 +27,13 @@ public class Array_list {
 
     System.out.println(myArraylist1.get(2)); // get the element in the arraylist at index 1
 
-        System.out.println(myArraylist1.contains(6)); // checks if 6 is present in the araylist or not
+    System.out.println(myArraylist1.contains(6)); // checks if 6 is present in the araylist or not
 
     myArraylist.addAll(myArraylist1); // combining  arraylist 1 nd 2 in a single arraylist
     System.out.println(myArraylist);
 
-        for (int i = 0; i < myArraylist1.size(); i++) { // traversing through the list
-            System.out.println("element at index:" +i+ " is "+myArraylist1.get(i));
+     for (int i = 0; i < myArraylist1.size(); i++) { // traversing through the list
+          System.out.println("element at index:" +i+ " is "+myArraylist1.get(i));
 
         }
 

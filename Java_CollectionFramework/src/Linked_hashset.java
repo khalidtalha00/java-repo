@@ -5,7 +5,7 @@ public class Linked_hashset {
     public static void main(String[] args) {
 
         // a linked hashset is just like a hashset the only difference is that
-        // in a linkedhashset the order in which the element is printed will not be random
+        // in a linked hashset the order in which the element is printed will not be random
         // it will be fixed.
 
         // just like in a hashset in  Linked hashset duplicate element cannot be added

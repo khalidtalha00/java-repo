@@ -3,7 +3,7 @@
 
  interface Pet{
     void makesound();   // these methods are by default public and abstract
-    void sleep();
+     void sleep();
 }
 class Cat implements Pet{
     public void makesound(){
@@ -17,7 +17,8 @@ class Cat implements Pet{
 public class Interface_In_Java {
     public static void main(String[] args) {
         Pet mycat = new Cat();
-        mycat.sleep();mycat.makesound();
+        mycat.sleep();
+        mycat.makesound();
 
     }
 }
